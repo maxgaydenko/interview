@@ -1,0 +1,14 @@
+{
+  "name": "interview-web-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "web-server": "ts-node src/web-server.ts",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
